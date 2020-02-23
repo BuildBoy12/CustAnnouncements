@@ -5,7 +5,6 @@ A tinybrain's port of Cyanox's Custom Announcements from SMod for EXILED.
 Requires [EXILED](https://github.com/galaxy119/EXILED/).
 
 ## Configs
-### Note you can 
 Note that this plugin will do nothing by default, enable items at your leisure.
 
 | Config Option | Value Type | Default Value | Description |
