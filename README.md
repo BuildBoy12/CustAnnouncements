@@ -5,6 +5,7 @@ A tinybrain's port of Cyanox's Custom Announcements from SMod for EXILED.
 Requires [EXILED](https://github.com/galaxy119/EXILED/).
 
 ## Configs
+### Note you can 
 Note that this plugin will do nothing by default, enable items at your leisure.
 
 | Config Option | Value Type | Default Value | Description |
@@ -25,6 +26,7 @@ Note that this plugin will do nothing by default, enable items at your leisure.
 - __Usage for ca_JoinMsgs: `PlayerID@steam or @discord`:`announcement`, `PlayerID@steam or @discord`:`announcement`__
 
 ## Commands
+### Note you can use v/p instead of view/play
 - ca: Displays commands and info
 
 - chs (view/play): Plays configured chaos announcement
@@ -41,3 +43,4 @@ Note that this plugin will do nothing by default, enable items at your leisure.
 
 - scpa (scp number) (death type): Plays scp death announcement
     - Use tesla, dclass, science, mtf, or chaos for `death type`
+    - You can also use t, d, s, m, or c respectively
