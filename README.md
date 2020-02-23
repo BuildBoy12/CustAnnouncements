@@ -23,7 +23,7 @@ Note that this plugin will do nothing by default, enable items at your leisure.
 | `ca_EnableDE` | bool | false | Enables/disables the DClass escape announcement. |
 | `ca_JoinMsgs` | dict |  | People and their corresponding announcement |
 
-- __Usage for ca_JoinMsgs: PlayerID@steam or @discord`:`announcement, PlayerID@steam or @discord`:`announcement__
+- __Usage for ca_JoinMsgs: PlayerID@steam:announcement, PlayerID@steam:announcement, PlayerID@discord:announcement__
 
 ## Commands
 ### Note you can use v/p instead of view/play
