@@ -65,6 +65,8 @@ namespace CustomAnnouncements
 					Plugin.Info("Player Join announcement played successfully");
 					return;
 				}
+				else if (e == null)
+					return;
 			}
 
 			else if(ev.Player.characterClassManager.UserId == joinPlayer && Configs.enableCustJoinMsg != true && joinMsg != "")
