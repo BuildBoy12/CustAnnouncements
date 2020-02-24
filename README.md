@@ -2,7 +2,8 @@
 A tinybrain's port of Cyanox's Custom Announcements from SMod for EXILED.
 - Note this plugin does not include the prior's `countdown`, `timer`, `autowarhead`, `waitingforplayers`, `preset`, or `textannouncement` configs/commands.
 
-Requires [EXILED](https://github.com/galaxy119/EXILED/).
+- Requires [EXILED](https://github.com/galaxy119/EXILED/).
+- All C.A.S.S.I.E. acceptable words can be found [here](https://pastebin.com/rpMuRYNn).
 
 ## Configs
 
