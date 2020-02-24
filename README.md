@@ -18,8 +18,8 @@ A tinybrain's port of Cyanox's Custom Announcements from SMod for EXILED.
 | `ca_EnableDE` | bool | false | Enables/disables the DClass escape announcement. |
 | `ca_DEMessage` | string |  | Announcement that will be played when a DClass escapes. |
 | `ca_EnableSE` | bool | false | Enables/disables the Scientist escape announcement. |
-| `ca_SEMessage` | string |  | Enables/disables the DClass escape announcement. |
-| `ca_EnableDE` | bool | false | Enables/disables the DClass escape announcement. |
+| `ca_SEMessage` | string |  | Enables/disables the Scientist escape announcement. |
+| `ca_EnableJM` | bool | false | Enables/disables the Player Join announcement. |
 | `ca_JoinMsgs` | dict |  | People and their corresponding announcement |
 
 - __Usage for ca_JoinMsgs: PlayerID@steam:announcement, PlayerID@discord:announcement__
