@@ -1,27 +1,22 @@
 # Custom Announcements
-A tinybrain's port of Cyanox's Custom Announcements from SMod for EXILED.
-- Note this plugin does not include the prior's `countdown`, `timer`, `autowarhead`, `waitingforplayers`, `preset`, or `textannouncement` configs/commands.
-
 - Requires [EXILED](https://github.com/galaxy119/EXILED/).
 - All C.A.S.S.I.E. acceptable words can be found [here](https://pastebin.com/rpMuRYNn).
 
 ## Configs
+- Leave an announcement blank if you do not want it to run.
 
 | Config Option | Value Type | Default Value | Description |
 |:------------------------:|:----------:|:-------------:|:------------------------------------------:|
-| `ca_EnableCHS` | bool | false | Enables/disables the Chaos Insurgency spawn announcement. |
-| `ca_CHSMessage` | string |  | Announcement that will be played when Chaos spawns. |
-| `ca_EnableRE` | bool | false | Enables/disables the Round End announcement. |
-| `ca_REMessage` | string |  | Announcement that will be played when the Round Ends. |
-| `ca_EnableRS` | bool | false | Enables/disables the Round Start announcement. |
-| `ca_RSMessage` | string |  | Announcement that will be played when the round starts. |
-| `ca_EnableDE` | bool | false | Enables/disables the DClass escape announcement. |
-| `ca_DEMessage` | string |  | Announcement that will be played when a DClass escapes. |
-| `ca_EnableSE` | bool | false | Enables/disables the Scientist escape announcement. |
-| `ca_SEMessage` | string |  | Enables/disables the Scientist escape announcement. |
-| `ca_EnableJM` | bool | false | Enables/disables the Player Join announcement. |
-| `ca_JoinMsgs` | dict |  | People and their corresponding announcement |
+| `ca_enable` | bool | true | Enabled/disabled the plugin. |
+| `ca_chaos_spawn` | string |  | Announcement that will be played when Chaos spawns. |
+| `ca_mtf_spawn` | string |  | Announcement that will be played when MTF spawns. |
+| `ca_roundstart` | string |  | Announcement that will be played when the round starts. |
+| `ca_roundend` | string |  | Announcement that will be played when the round ends. |
+| `ca_dclass_escape` | string |  | Announcement that will be played when a DClass escapes. |
+| `ca_scientist_escape` | string |  | Announcement that will be played when a Scientist escapes. |
+| `ca_join` | dict |  | People and their corresponding announcement |
 
+- __Variables for 'ca_mtf_spawn' for current spawn info: %NtfLetter%, %NtfNumber%, %ScpsLeft%__
 - __Usage for ca_JoinMsgs: PlayerID@steam:announcement, PlayerID@discord:announcement__
 
 ## Commands
